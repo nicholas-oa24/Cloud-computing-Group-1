@@ -17,7 +17,7 @@ A static GitHub Pages website that allows students and Teachers to get Books fro
 ----
 
 ## 📁 Project Structure
-
+```
 cloud-lab-group-project/
 │
 ├── index.html          # Home page — event listing & search
@@ -37,9 +37,7 @@ cloud-lab-group-project/
 └── README.md            # Project documentation (this file)
 ```
 
----
-
-**## 🚀 Getting Started**
+## 🚀 Getting Started
 
 **### View Locally**
 No build tools or server required. Simply open `index.html` in a browser,
