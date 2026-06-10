@@ -34,7 +34,7 @@ cloud-lab-group-project/
 ├── js/
 │   └── script.js        # All JavaScript (event fetching, search, filters)
 │
-└── README.md            # Project documentation (this file)
+└── README.md            # Project documentation (this file).
 ```
 
 ## 🚀 Getting Started
