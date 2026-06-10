@@ -39,12 +39,12 @@ cloud-lab-group-project/
 
 ## 🚀 Getting Started
 
-**### View Locally**
+### View Locally
 No build tools or server required. Simply open `index.html` in a browser,
 or use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 VS Code extension for hot-reload during development.
 
-**### Deploy to GitHub Pages**
+### Deploy to GitHub Pages
 1. Push the repository to GitHub.
 2. Go to **Settings → Pages**.
 3. Set **Source** to the `main` branch, root `/` directory.
@@ -53,7 +53,7 @@ VS Code extension for hot-reload during development.
 ---
 ---
 
-**## 👥 Team Members**
+## 👥 Team Members
 <!-- TODO: Fill in team member names and roles -->
 
 | Name           | Role / Responsibility |
@@ -66,5 +66,5 @@ VS Code extension for hot-reload during development.
 
 ---
 
-**## 📄 License**
+## 📄 License
 This project is submitted as coursework for academic assessment purposes.
