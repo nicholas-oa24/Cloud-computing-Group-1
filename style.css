@@ -1,16 +1,71 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-nav {
-  background-color: #333;
-  padding: 10px;
+header, section, article, footer {
+    padding: 20px;
 }
 
-nav a {
+.columns {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2196F3;
+}
+
+.columns article {
+    width: 30%;
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* NAVBAR FROM W3SCHOOLS */
+.topnav {
+  overflow: hidden;
+  background-color: #2196F3;
+}
+
+.topnav a {
+  float: left;
+  display: block;
   color: white;
-  margin: 0 10px;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #0b7dda;
+}s
+
+.topnav .icon {
+  display: none;
+}
+.flow{
+      background-color: #2196F3;
+}
+
+.logo {
+  height: 50px; /* Adjust the height */
+  width: auto;  /* Keep aspect ratio */
+  vertical-align: middle; /* Align with nav items */
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 25%;
+}
+
+.price {
+  text-align: center;
+  width: 25%;
 }

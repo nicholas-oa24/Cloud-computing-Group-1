@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us - PharmaCare</title>
+    <title>Contact Us - PharmaCare</title>
     <link rel="stylesheet" href="style.css">
 
     <!-- Internal Styling -->
@@ -62,7 +62,7 @@
         }
 
         main {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 30px auto;
             padding: 0 20px;
         }
@@ -74,47 +74,84 @@
             color: #0072b5;
         }
 
-        /* Columns Section */
-        .columns {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
+        /* Form Styling */
+        form {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
             margin-bottom: 50px;
         }
 
-        .columns article {
-            background: #fff;
-            padding: 20px;
-            flex: 1 1 250px;
+        label {
+            font-weight: bold;
+            color: #0072b5;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            resize: vertical;
+            font-size: 1rem;
+        }
+
+        textarea {
+            min-height: 120px;
+        }
+
+        button {
+            background-color: #ffb700;
+            color: #000;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: #ffaa00;
+            transform: scale(1.05);
+        }
+
+        /* Section Styling */
+        section h2 {
+            color: #0072b5;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        section a {
+            color: #ff7f50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section a:hover {
+            text-decoration: underline;
+        }
+
+        section img {
+            width: 100%;
             border-radius: 12px;
             box-shadow: 0 6px 12px rgba(0,0,0,0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
-        .columns article:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+        section img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
         }
 
-        .columns h3 {
-            color: #ff7f50;
-            margin-bottom: 10px;
-        }
-
-        /* Images Section */
-        div img {
-            border-radius: 12px;
-            margin: 10px;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        div img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-        }
-
-        /* Footer */
+        /* Footer Styling */
         footer {
             background: #0072b5;
             color: #fff;
@@ -124,11 +161,9 @@
             border-radius: 8px 8px 0 0;
         }
 
-        /* Responsive Images */
-        @media (max-width: 900px) {
-            div img {
-                width: 100%;
-                height: auto;
+        @media (max-width: 600px) {
+            form {
+                padding: 20px;
             }
         }
     </style>
@@ -140,37 +175,36 @@
   <a href="home.html">Home</a>
   <a href="products.html">Products</a>
   <a href="services.html">Services</a>
-  <a href="about.html" class="active">About</a>
-  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="contact.html" class="active">Contact</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 <main>
     <h1>
-        <img src="images/logo.jpg" alt="phar logo" class="logo" style="box-shadow: 0 4px 10px rgba(0,0,0,0.3);"> 
-        About PharmaCare Ltd
+        <img src="images/logo.jpg" alt="phar logo" class="logo" style="box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+        Contact PharmaCare
     </h1>
 
-    <section class="columns">
-        <article style="background: linear-gradient(135deg, #e0f7fa, #fff);">
-            <h3>Our Mission</h3>
-            <p>To provide affordable, safe and effective medicines.</p>
-        </article>
-        <article style="background: linear-gradient(135deg, #fff0f5, #fff);">
-            <h3>Our Vision</h3>
-            <p>To be Ghana’s leading pharmaceutical company.</p>
-        </article>
-        <article style="background: linear-gradient(135deg, #f0fff0, #fff);">
-            <h3>Our Values</h3>
-            <p>Integrity, Excellence and Innovation.</p>
-        </article>
-    </section>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" placeholder="Enter your full name"><br>
 
-    <div style="text-align:center;">
-        <img src="images/ph2.jpg" width="35%" height="400px" alt="Pharmaceutical Worker">
-        <img src="images/ph3.jpg" width="30%" height="400px" alt="Pharmaceutical Worker">
-        <img src="images/ph1.jpg" width="35%" height="400px" alt="Pharmaceutical Worker">
-    </div>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email"><br>
+
+        <label>Message:</label><br>
+        <textarea placeholder="Write your message here..."></textarea><br>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <section>
+        <h2>Click on 
+            <a href="https://maps.app.goo.gl/HND4xodF4Wze5vmx8?g_st=ipc" target="_blank">location</a> to get directions to our place
+        </h2>
+        <img src="images/location.jpg" alt="PharmaCare Location">
+    </section>
 
 </main>
 

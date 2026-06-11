@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Products - PharmaCare</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- INTERNAL STYLING -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f7ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0455a4;
+            margin-top: 20px;
+            font-size: 2.4em;
+            text-shadow: 1px 1px 3px #bcd2f2;
+        }
+
+        .logo {
+            width: 55px;
+            vertical-align: middle;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+
+        main {
+            padding: 20px 60px;
+        }
+
+        /* Table Styling */
+        table {
+            border-collapse: collapse;
+            background: white;
+            margin: 20px auto;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.15);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #0256a0;
+            color: white;
+            padding: 12px;
+            font-size: 1.1em;
+        }
+
+        td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background: #eef4ff;
+        }
+
+        tr:hover {
+            background: #dceaff;
+            cursor: pointer;
+        }
+
+        /* Featured Section */
+        section {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        section img {
+            margin: 10px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+            transition: transform .3s ease;
+        }
+
+        section img:hover {
+            transform: scale(1.06);
+        }
+
+        .item {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #013f7c;
+        }
+
+        .flavor {
+            color: #01853c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 12px;
+            margin-top: 25px;
+            background: #013f7c;
+            color: white;
+        }
+
+        /* Inline nav example */
+        .topnav {
+            background-color: #013f7c;
+            overflow: hidden;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 18px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #0273d4;
+        }
+
+        .active {
+            background-color: #02853e;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="topnav" id="myTopnav" style="border-bottom: 3px solid #00a2ff;">
+  <a href="home.html">Home</a>
+  <a href="products.html" class="active">Products</a>
+  <a href="services.html">Services</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<main>
+    <h1>
+        <img src="images/logo.jpg" alt="phar logo" class="logo">
+        Our Pharmaceutical Products
+    </h1>
+
+    <!-- PRODUCT TABLE -->
+    <table border="1" width="100%" class="flow">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Dosage</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Paracetamol</td><td>Pain Relief</td><td>500mg</td><td>GHC 12</td></tr>
+            <tr><td>Amoxicillin</td><td>Antibiotic</td><td>250mg</td><td>GHC 28</td></tr>
+            <tr><td>Cough Syrup</td><td>Cold & Flu</td><td>120ml</td><td>GHC 18</td></tr>
+        </tbody>
+    </table>
+
+    <section>
+        <h2 style="color:#0455a4; font-size: 2em; margin-bottom:20px;">Featured Medicines</h2>
+
+        <img src="images/med1.jpg" width="20%" style="border:3px solid #e3efff;">
+        <img src="images/med2.jpg" width="20%" style="border:3px solid #e3efff;">
+
+        <article class="item">
+            <p class="flavor">MENTAT</p>
+            <p>PANADOL</p>
+        </article>
+    </section>
+</main>
+
+<footer class="flow">
+    <p>© 2025 PharmaCare Ltd</p>
+</footer>
+
+<script src="navbar.js"></script>
+</body>
+</html>
