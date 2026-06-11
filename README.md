@@ -28,8 +28,8 @@ cloud-lab-group-project/
 ├── css/
 │   └── style.css       # All styles for the site
 |
-├── Books/
-│   └── Books            #Books found in the library
+├── Pharmacy/
+│   └── Pharmacy           #Medicine found in the library
 |
 ├── js/
 │   └── script.js        # All JavaScript (event fetching, search, filters)
