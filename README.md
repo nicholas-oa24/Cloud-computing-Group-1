@@ -60,7 +60,7 @@ VS Code extension for hot-reload during development.
 |----------------|-----------------------|
 | Team Member 1  | Role / Responsibility |
 | Team Member 2  | Role / Responsibility |
-| Team Member 3  | Role / Responsibility |
+| Ampadu Micheal  | About hmtl |
 | Team Member 4  | Role / Responsibility |
 | Team Member 5  | Role / Responsibility |
 
