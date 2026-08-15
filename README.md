@@ -59,7 +59,7 @@ VS Code extension for hot-reload during development.
 |---|---|
 | Nicholas Sefa Kumah | **Cloud Architecture & Backend Integration** (AWS setup, API routing, Lambda logic) |
 | Ampadu Micheal | **Frontend Development** (`about.html`, system documentation & page layouts) |
-| Team Member 3 | **UI/UX & Styling** (`css/style.css`, responsive layout & accessibility) |
+|Latifa Mustapha| **UI/UX & Styling** (`css/style.css`, responsive layout & accessibility) |
 | Team Member 4 | **Frontend Interactivity** (`index.html`, `js/script.js` search & catalog filters) |
 | Team Member 5 | **Testing & Documentation** (`contact.html`, `team.html`, testing & deployment) |
 
