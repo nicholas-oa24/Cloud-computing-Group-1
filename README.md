@@ -1,5 +1,5 @@
-# Campus Library System
-A static GitHub Pages website that allows students and Teachers to get Books from the Library Online
+# Campus Pharmacy System
+A web-based platform that allows students and staff to search, reserve, and manage pharmaceutical supplies and medications online.
 
 ----
 
@@ -11,10 +11,11 @@ A static GitHub Pages website that allows students and Teachers to get Books fro
 | Course        | Cloud Computing & Web Technologies   |
 | Academic Year | 2025 / 2026                          |
 | Platform      | GitHub Pages (Static)                |
-| Tech Stack    | HTML5 · CSS3 ·  JavaScript           |
-
+| Tech Stack    | HTML5 · CSS3 · JavaScript            |
+| Repository    | [GitHub Repository](https://github.com/nicholas-oa24/Cloud-computing-Group-1) |
 
 ----
+
 
 ## 📁 Project Structure
 ```
