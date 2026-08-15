@@ -7,8 +7,8 @@
 
 | Field         | Details                              |
 |---------------|--------------------------------------|
-| Group         | Cloud Lab Group                      |
-| Course        | Cloud Computing & Web Technologies   |
+| Group         | Cloud Lab Group 1                     |
+| Course        | Cloud Computing    |
 | Academic Year | 2025 / 2026                          |
 | Platform      | GitHub Pages (Static)                |
 | Tech Stack    | HTML5 · CSS3 ·  JavaScript           |
