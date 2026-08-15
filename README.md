@@ -1,5 +1,5 @@
-# Campus Pharmacy System
-A web-based platform that allows students and staff to search, reserve, and manage pharmaceutical supplies and medications online.
+# Campus System
+
 
 ----
 
@@ -11,11 +11,10 @@ A web-based platform that allows students and staff to search, reserve, and mana
 | Course        | Cloud Computing & Web Technologies   |
 | Academic Year | 2025 / 2026                          |
 | Platform      | GitHub Pages (Static)                |
-| Tech Stack    | HTML5 · CSS3 · JavaScript            |
-| Repository    | [GitHub Repository](https://github.com/nicholas-oa24/Cloud-computing-Group-1) |
+| Tech Stack    | HTML5 · CSS3 ·  JavaScript           |
+
 
 ----
-
 
 ## 📁 Project Structure
 ```
@@ -38,50 +37,6 @@ cloud-lab-group-project/
 └── README.md            # Project documentation (this file).
 ```
 
-```markdown
-# Campus Pharmacy System
-A web-based platform that allows students and staff to search, reserve, and manage pharmaceutical supplies and medications online.
-
-----
-
-## 📋 Project Info
-
-| Field         | Details                              |
-|---------------|--------------------------------------|
-| Group         | Cloud Lab Group- 1                      |
-| Course        | Cloud Computing    |
-| Academic Year | 2025 / 2026                          |
-| Platform      | GitHub Pages (Static)                |
-| Tech Stack    | HTML5 · CSS3 · JavaScript            |
-| Repository    | [GitHub Repository](https://github.com/nicholas-oa24/Cloud-computing-Group-1) |
-
-----
-
-## 📁 Project Structure
-
-```
-
-cloud-lab-group-project/
-│
-├── index.html          # Home page — pharmacy catalog, medicine listing & search
-├── about.html          # About page — system overview & health service details
-├── contact.html        # Contact page — inquiry & consultation form
-├── team.html           # Team page — project contributors & roles
-│
-├── css/
-│   └── style.css       # Global stylesheet & responsive design
-│
-├── pharmacy/
-│   └── inventory.json  # Catalog of medications and available supplies
-│
-├── js/
-│   └── script.js       # Core JavaScript (medicine search, category filters, cart)
-│
-└── README.md           # Project documentation
-
-```
-
-----
 ## 🚀 Getting Started
 
 ### View Locally
@@ -122,4 +77,6 @@ No build tools required. Open `index.html` directly in any web browser, or use t
 4. The site will be live at `https://<username>.github.io/<repo-name>/`.
 
 ---
+
+## 📄 License
 This project is submitted as coursework for academic assessment purposes.
