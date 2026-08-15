@@ -57,12 +57,12 @@ VS Code extension for hot-reload during development.
 <!-- TODO: Fill in team member names and roles -->
 
 | Name           | Role / Responsibility |
-|----------------|-----------------------|
-| Team Member 1  | Role / Responsibility |
-| Team Member 2  | Role / Responsibility |
-| Ampadu Micheal  | About hmtl |
-| Team Member 4  | Role / Responsibility |
-| Team Member 5  | Role / Responsibility |
+|----------------------|-----------------------|
+| Nicholas sefa kumah  | AWS deployment/admin |
+| Team Member 2        | Role / Responsibility |
+| Ampadu Micheal       | About hmtl |
+| Team Member 4        | Role / Responsibility |
+| Team Member 5          Role / Responsibility |
 
 ---
 
