@@ -53,20 +53,6 @@ VS Code extension for hot-reload during development.
 ---
 ---
 
-## 👥 Team Members
-<!-- TODO: Fill in team member names and roles -->
-
-| Name           | Role / Responsibility |
-|----------------------|-----------------------|
-| Nicholas sefa kumah  | AWS deployment/admin |
-| Team Member 2        | Role / Responsibility |
-| Ampadu Micheal       | About hmtl |
-| Team Member 4        | Role / Responsibility |
-| Team Member 5          Role / Responsibility |
-
----
----
-
 ## 👥 Team Members & Roles
 
 | Name | Role / Responsibility |
