@@ -82,41 +82,30 @@ cloud-lab-group-project/
 ```
 
 ----
+## 🚀 Getting Started
 
-## ☁️ Cloud Infrastructure & Deployment Evidence
+### View Locally
+No build tools or server required. Simply open `index.html` in a browser,
+or use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+VS Code extension for hot-reload during development.
 
-### 1. Active IAM Roles
-* **Role Name:** `Group-1`
-* **Trusted Entity:** `ec2.amazonaws.com`
-* **Role ARN:** `arn:aws:iam::912302000571:role/Group-1`
-* **Description:** Configured to allow Amazon EC2 instances to communicate securely with AWS cloud services.
-
----
-
-### 2. Running EC2 Instance
-* **Instance ID:** `i-053a91b3c50bde9ea`
-* **Instance State:** `Running`
-* **Instance Type:** `t3.micro`
-* **Public IPv4 Address:** `56.228.42.108`
-* **IAM Instance Profile:** `Group-1`
+### Deploy to GitHub Pages
+1. Push the repository to GitHub.
+2. Go to **Settings → Pages**.
+3. Set **Source** to the `main` branch, root `/` directory.
+4. GitHub will publish the site at `https://<username>.github.io/<repo-name>/`.
 
 ---
-
-### 3. CloudWatch Monitoring
-* **Target Instance:** `i-053a91b3c50bde9ea`
-* **Tracked Metrics:** `NetworkIn`, `NetworkOut`, and `CPUUtilization`
-* **Status:** Live metric streaming and operational health monitoring active.
-
 ---
 
 ## 👥 Team Members & Roles
 
 | Name | Role / Responsibility |
 |---|---|
-| Nicholas Sefa Kumah | **Cloud Architecture & Backend Integration** (AWS setup, API routing, server configurations) |
+| Nicholas Sefa Kumah | **Cloud Architecture & Backend Integration** (AWS setup, API routing, Lambda logic) |
 | Ampadu Micheal | **Frontend Development** (`about.html`, system documentation & page layouts) |
 | Jason Gyefour | **UI/UX & Styling** (`css/style.css`, responsive layout & accessibility) |
-| Latifa Mustapha | **Frontend Interactivity** (`index.html`, `js/script.js` medicine search & filters) |
+| Latifa Mustapha | **Frontend Interactivity** (`index.html`, `js/script.js` search & catalog filters) |
 | Team Member 5 | **Testing & Documentation** (`contact.html`, `team.html`, testing & deployment) |
 
 ---
@@ -124,11 +113,13 @@ cloud-lab-group-project/
 ## 🚀 Getting Started
 
 ### View Locally
-No build tools required. Open `index.html` directly in any modern browser, or use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) VS Code extension for live development reloading.
+No build tools required. Open `index.html` directly in any web browser, or use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) VS Code extension for hot reloading.
 
-## 📄 License
-This project is submitted as coursework for academic assessment purposes.
+### Deploy to GitHub Pages
+1. Push the repository to GitHub.
+2. Navigate to **Settings → Pages**.
+3. Under **Branch**, select `main` and root `/` folder, then click **Save**.
+4. The site will be live at `https://<username>.github.io/<repo-name>/`.
 
-```
-
+---
 This project is submitted as coursework for academic assessment purposes.
