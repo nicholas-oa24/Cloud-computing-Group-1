@@ -61,7 +61,7 @@ VS Code extension for hot-reload during development.
 | Ampadu Micheal | **Frontend Development** (`about.html`, system documentation & page layouts) |
 | Jason Gyefour | **UI/UX & Styling** (`css/style.css`, responsive layout & accessibility) |
 | Latifa Mustapha | **Frontend Interactivity** (`index.html`, `js/script.js` search & catalog filters) |
-| Team Member 5 | **Testing & Documentation** (`contact.html`, `team.html`, testing & deployment) |
+| Thompson Enoch Ateh Shade | **Testing & Documentation** (`contact.html`, `team.html`, testing & deployment) |
 
 ---
 
